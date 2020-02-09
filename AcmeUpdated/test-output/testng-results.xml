@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9841" started-at="2020-02-08T09:12:32Z" finished-at="2020-02-08T09:12:42Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="9841" started-at="2020-02-08T09:12:32Z" finished-at="2020-02-08T09:12:42Z">
+      <class name="com.acme.testcases.TC001_LoginLogOut">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="startReport" is-config="true" duration-ms="479" started-at="2020-02-08T09:12:32Z" finished-at="2020-02-08T09:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="setValues" is-config="true" duration-ms="1" started-at="2020-02-08T09:12:33Z" finished-at="2020-02-08T09:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="setUpClass" is-config="true" duration-ms="144" started-at="2020-02-08T09:12:33Z" finished-at="2020-02-08T09:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="report" is-config="true" duration-ms="9" started-at="2020-02-08T09:12:33Z" finished-at="2020-02-08T09:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="beforeMethod" is-config="true" duration-ms="6706" started-at="2020-02-08T09:12:33Z" finished-at="2020-02-08T09:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLeaf(java.lang.String, java.lang.String)[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="createLeaf" duration-ms="2013" started-at="2020-02-08T09:12:40Z" data-provider="fetchData" finished-at="2020-02-08T09:12:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeaf -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="afterMethod" is-config="true" duration-ms="124" started-at="2020-02-08T09:12:42Z" finished-at="2020-02-08T09:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-02-08T09:12:42Z" finished-at="2020-02-08T09:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="stopReport()[pri:0, instance:com.acme.testcases.TC001_LoginLogOut@eec5a4a]" name="stopReport" is-config="true" duration-ms="461" started-at="2020-02-08T09:12:42Z" finished-at="2020-02-08T09:12:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- com.acme.testcases.TC001_LoginLogOut -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
